@@ -13,3 +13,5 @@ class MergeSortStrategy : public SortStrategy<T> {
 };
 
 #endif
+
+#include "mergeSortStrategy.tpp"
