@@ -13,3 +13,5 @@ class BubbleSortStrategy : public SortStrategy<T> {
 };
 
 #endif
+
+#include "bubbleSortStrategy.tpp"
