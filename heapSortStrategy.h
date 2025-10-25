@@ -18,3 +18,4 @@ class HeapSortStrategy : public SortStrategy<T> {
 
 #endif
 
+#include "heapSortStrategy.tpp"
