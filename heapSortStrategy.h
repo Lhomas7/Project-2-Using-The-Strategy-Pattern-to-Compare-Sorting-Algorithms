@@ -8,7 +8,7 @@
 template <typename T>
 class HeapSortStrategy : public SortStrategy<T> {
 	public: 
-		HeapSortStrategy();
+		HeapSortStrategy() {}
 		virtual void sort(std::vector<T>&) override;
 
 	private:

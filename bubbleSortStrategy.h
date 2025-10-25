@@ -8,7 +8,7 @@
 template <typename T>
 class BubbleSortStrategy : public SortStrategy<T> {
 	public:
-		BubbleSortStrategy();
+		BubbleSortStrategy() {}
 		virtual void sort(std::vector<T>&) override;
 };
 
