@@ -12,9 +12,6 @@ class SortStrategyContext {
 		void sort(std::vector<T>& data) {
 			sortStrategy->sort(data);
 		}
-		void makeHeap(std::vector<T>& data) {
-			sortStrategy->makeHeap(data);
-		}
 		void print(std::string& msg, std::vector<T>& data) {
 			sortStrategy->print(msg, data);
 		}
