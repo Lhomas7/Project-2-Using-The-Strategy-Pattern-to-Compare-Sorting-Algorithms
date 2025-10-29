@@ -36,6 +36,7 @@ void HeapSortStrategy<T>::bubbleDown(std::vector<T>& data, unsigned noNodes, uns
 
 template <typename T>
 void HeapSortStrategy<T>::sort(std::vector<T>& data) {
+	makeHeap(data);
 	for (unsigned int i = data.size()-1; i > 0; --i) {
 		std::swap(data[0], data[i]);
 		bubbleDown(data, i, 0);
