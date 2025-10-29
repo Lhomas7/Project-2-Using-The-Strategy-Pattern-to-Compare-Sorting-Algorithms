@@ -12,8 +12,8 @@ void MergeSortStrategy<T>::sort(std::vector<T>& data) {
 	}
 	
 	int mid = n / 2;
-	vector<T> left(data.begin(), data.begin() + mid);
-	vector<T> right(data.begin() + mid, data.end());
+	std::vector<T> left(data.begin(), data.begin() + mid);
+	std::vector<T> right(data.begin() + mid, data.end());
 	
 	left = sort(left);
 	right = sort(right);
