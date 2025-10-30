@@ -11,7 +11,7 @@ const int MAX = 100000;
 
 Pair<char, int> getPair() {
   char ch = (90 - (rand() % 26));
-  return Pair(ch, rand()%100);
+  return Pair<char, int>(ch, rand()%100);
 }
 
 int main() {
