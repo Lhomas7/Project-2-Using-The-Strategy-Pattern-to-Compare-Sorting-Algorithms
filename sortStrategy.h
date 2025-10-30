@@ -7,13 +7,13 @@ class SortStrategy {
 		SortStrategy()=default;
 		virtual void sort(std::vector<T>&) = 0;
 		virtual ~SortStrategy()=default;
-		/*virtual void print(const std::string& msg, std::vector<T>& v) {
+		virtual void print(const std::string& msg, std::vector<T>& v) {
 			std::cout << msg;
 			for (unsigned i = 0; i < v.size(); ++i) {
 				std::cout << v[i] << " ";
 			}
 			std::cout << std::endl;
-		}*/
+		}
 };
 
 #endif
