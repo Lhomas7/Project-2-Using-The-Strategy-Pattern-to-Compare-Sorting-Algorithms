@@ -27,6 +27,7 @@ void HeapSortStrategy<T>::bubbleDown(std::vector<T>& data, unsigned noNodes, uns
 		}
 		if (largest != parent) {
 			std::swap(data[largest], data[parent]);
+			parent = largest;
 		}
 		else {
 			done = true;
